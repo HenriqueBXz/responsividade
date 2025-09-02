@@ -99,4 +99,15 @@ body{
         background-size: cover;
         min-height: 90vh;
     }
+
+    .s2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        min-width: 80vh;
+        height: auto;
+    }
 }
+
