@@ -37,15 +37,18 @@ body{
     margin-bottom: -20px;
 }
 
-.s1 img{
+.img-s1{
     width: 100%;
     height: auto;
 }
+
+
 
 .card{
     margin-top: 20px;
     background-color:#FFB703;
     border-radius: 20px;
+    height: 260px;
 }
 
 .card img{
@@ -53,7 +56,7 @@ body{
     width: 200px;
 }
 
-.card img:hover{
+.card:hover{
     transform: scale(1.2);
 }
 
@@ -66,4 +69,34 @@ body{
 .card p{
     display: flex;
     justify-content: center;
+}
+
+.btn-contato{
+    cursor: pointer;
+    padding: 10px 40px;
+    color: black;
+    transition: 0.3s;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #FB8500;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn-contato:hover {
+  background-color: #FB8500;
+  transform: scale(1.2);
+}
+
+@media(width >= 768px){
+    .img-s1 {
+        display: none;
+    }
+    .s1{
+        background-image: url(./images/back.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 90vh;
+    }
 }
