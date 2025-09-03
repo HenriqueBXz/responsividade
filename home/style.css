@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .s1 hr{
@@ -109,5 +110,21 @@ body{
         min-width: 80vh;
         height: auto;
     }
+    .s1 h1{
+        color: white;
+        font-size: 120px;
+        text-shadow: 0 4px 20px black;
+    }
+    .s1 p{
+        font-size: 50px;
+        color: #FB8500;
+        text-shadow: 0 4px 4px black;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        display: flex;
+    }
+    .line{
+        display: none;
+    }
 }
-
